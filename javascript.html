@@ -1,0 +1,33 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Feminist survival guide</title>
+    <script>
+        var answers = ['kill a feminazi', 'kill 5 soy boys', 'kill 3 karens','destroy 5 soy plantations','give 5 karens flu injections','change a feminazis point of view'];
+    function testing(){
+       var rand = Math.floor(Math.random()*answers.length);
+        document.getElementById('text'). innerHTML = answers[rand];
+    }
+        
+    </script>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="encyclopedia.html"> Encyclopedia</a>
+            <a href="javascript.html">Challenges</a>
+        </nav>
+        <section>
+            <h1>Welcome</h1>
+            <button onclick="testing()">Challenge Generator</button>
+            <p id="text"></p>
+            <h2> If you are looking for a challenge, Then click the Challenge Generator button. This will give you one of various challenges. Only do the challenge if you know you can complete it, however you will gain a huge reward if the challenge is completed. </h2>
+            <br> <br>
+            <h2>All rewards can be collected from the great quest completer. If you need to find him after completing your challenges, follow the map below.</h2>
+            <div class= "News">
+            <img class= "map" src="images/map.psd" >
+            </div>
+        </section>
+    </div>
+</body>
